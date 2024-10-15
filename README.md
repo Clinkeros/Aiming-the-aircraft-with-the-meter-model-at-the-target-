@@ -12,5 +12,6 @@ $$\varepsilon_{ц~изм}=\varepsilon_ц+\sigma_\varepsilon\xi_\varepsilon~,$$</
 <p>где $$\xi$$ – белый шум с нулевым математическим ожиданием и единичной дисперсией; $$\sigma$$ – значение дисперсии шумовой составляющей канала.</p>
 <p>Ниже приведены примеры сигналов каналов измерителя без шума и с наложением шумов</p>  
 
-![Пример без шумов](../Example/Examplre_without_noise.png)  
-![Пример c шумами](../Example/Examplre_with_noise.png)
+![Пример без шумов](Exampels/Example_without_noise.png)  
+  
+![Пример c шумами](Exampels/Example_with_noise.png)
