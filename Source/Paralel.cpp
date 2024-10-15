@@ -1,10 +1,10 @@
 #include <cmath>
 #include <QVector>
 
-#include "uav.h"
-#include "target.h"
-#include "Paralel.h"
-#include "Noise.h"
+#include "../../Lab3/Headers/uav.h"
+#include "../../Lab3/Headers/target.h"
+#include "../../Lab3/Headers/Paralel.h"
+#include "../../Lab3/Headers/Noise.h"
 
 extern QVector<double> Paralel_x_UAV;
 extern QVector<double> Paralel_y_UAV;

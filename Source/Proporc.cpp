@@ -1,10 +1,10 @@
 #include <cmath>
 #include <QVector>
 
-#include "uav.h"
-#include "target.h"
-#include "Proporc.h"
-#include "Noise.h"
+#include "../../Lab3/Headers/uav.h"
+#include "../../Lab3/Headers/target.h"
+#include "../../Lab3/Headers/Proporc.h"
+#include "../../Lab3/Headers/Noise.h"
 
 extern QVector<double> Proporc_x_UAV;
 extern QVector<double> Proporc_y_UAV;

@@ -3,8 +3,8 @@
 #include "./ui_lab3.h"
 #include "QString"
 
-#include "Paralel.h"
-#include "Proporc.h"
+#include "Headers/Paralel.h"
+#include "Headers/Proporc.h"
 
 // Vectors for parallel convergence
 extern QVector<double> Paralel_x_UAV;

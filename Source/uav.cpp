@@ -1,4 +1,4 @@
-#include "uav.h"
+#include "../../Lab3/Headers/uav.h"
 #include "cmath"
 
 UAV::UAV() {}

@@ -1,4 +1,4 @@
-#include "target.h"
+#include "../../Lab3/Headers/target.h"
 #include "cmath"
 
 Target::Target() {}

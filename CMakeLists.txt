@@ -25,13 +25,13 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Lab3
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        uav.h uav.cpp
-        target.h target.cpp
-        Paralel.h Paralel.cpp
-        Proporc.h Proporc.cpp
+        Headers/uav.h Source/uav.cpp
+        Headers/target.h Source/target.cpp
+        Headers/Paralel.h Source/Paralel.cpp
+        Headers/Proporc.h Source/Proporc.cpp
         ../../qcustomplot/qcustomplot.cpp ../../qcustomplot/qcustomplot.h
-        Noise.h Noise.cpp
-        aproc.h aproc.cpp
+        Headers/Noise.h Source/Noise.cpp
+        Headers/aproc.h Source/aproc.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Lab3 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

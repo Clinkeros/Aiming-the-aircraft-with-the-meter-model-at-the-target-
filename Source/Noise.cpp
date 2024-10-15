@@ -1,4 +1,4 @@
-#include "Noise.h"
+#include "../../Lab3/Headers/Noise.h"
 #include <random>
 
 

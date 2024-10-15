@@ -1,4 +1,4 @@
-#include "aproc.h"
+#include "../../Lab3/Headers/aproc.h"
 
 Aproc::Aproc() {}
 
