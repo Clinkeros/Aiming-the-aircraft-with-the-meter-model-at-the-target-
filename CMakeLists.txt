@@ -29,7 +29,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Headers/target.h Source/target.cpp
         Headers/Paralel.h Source/Paralel.cpp
         Headers/Proporc.h Source/Proporc.cpp
-        ../../qcustomplot/qcustomplot.cpp ../../qcustomplot/qcustomplot.h
+        Headers/qcustomplot.h Source/qcustomplot.cpp
         Headers/Noise.h Source/Noise.cpp
         Headers/aproc.h Source/aproc.cpp
     )

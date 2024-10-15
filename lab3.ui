@@ -273,7 +273,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
   <customwidget>
    <class>QCustomPlot</class>
    <extends>QWidget</extends>
-   <header>F:\qcustomplot\qcustomplot.h</header>
+   <header>../../../../Qt_project/Lab3/Headers/qcustomplot.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
