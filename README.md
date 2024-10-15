@@ -1,4 +1,4 @@
-<h1>Aiming the aircraft with the meter model at the target</h1>
+<h1>Наведение ЛА с моделью измерителя на цель</h1>
 ЛА описывается следующими уравнениями:  
 <p style="text-algin:center"> $$\frac{d\Theta}{dt}=\frac{g}{V}(n_{y_a}-\cos{\Theta}),$$  
 $$\frac{dx}{dt}=V\cos{\Theta},$$  
@@ -15,3 +15,6 @@ $$\varepsilon_{ц~изм}=\varepsilon_ц+\sigma_\varepsilon\xi_\varepsilon~,$$</
 ![Пример без шумов](Exampels/Example_without_noise_eps.png)  
   
 ![Пример c шумами](Exampels/Example_with_noise_eps.png)
+
+<p>Полученный зашумлёный сигнал нельзя напрямую подовать в алгоритмы наведения. Для того чтобы его можно было использовать в алгоритмах нужно провести его через фильтр.</p>
+<p>В качетсве фильтра будем использовать МНК (метод наименьших квадратов).</p>
