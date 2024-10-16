@@ -1,8 +1,8 @@
 <h1>Наведение ЛА с моделью измерителя на цель</h1>
 Модель ЛА описывается следующей системой уравнений:  
-<p>$$\left\{\begin{aligned}&\frac{d\Theta}{dt}=\frac{g}{V}(n_{y_a}-\cos{\Theta})\\  
-&\frac{dx}{dt}=V\cos{\Theta}\\  
-&\frac{dy}{dt}=V\sin{\Theta}\end{aligned}\right..$$</p>  
+<p>$$\left\{\begin{aligned}\frac{d\Theta}{dt}&=\frac{g}{V}(n_{y_a}-\cos{\Theta})\\  
+\frac{dx}{dt}&=V\cos{\Theta}\\  
+\frac{dy}{dt}&=V\sin{\Theta}\end{aligned}\right..$$</p>  
 Цель описывается следующей системой:  
 <p> $$\left\{\begin{aligned}\frac{dx_ц}{dt}=V_ц\cos{\Theta_ц}\\  
 \frac{dy_ц}{dt}=V_ц\sin{\Theta_ц}\end{aligned}\right..$$  </p>  
