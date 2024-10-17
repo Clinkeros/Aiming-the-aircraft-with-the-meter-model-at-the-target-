@@ -2,10 +2,10 @@
 Модель ЛА описывается следующей системой уравнений:  
 <p>$$\left\{\begin{aligned}\frac{d\Theta}{dt}&=\frac{g}{V}(n_{y_a}-\cos{\Theta})\\  
 \frac{dx}{dt}&=V\cos{\Theta}\\  
-\frac{dy}{dt}&=V\sin{\Theta}\end{aligned}\right..$$</p>  
+\frac{dy}{dt}&=V\sin{\Theta}\end{aligned}\right.$$</p>  
 Цель описывается следующей системой:  
 <p> $$\left\{\begin{aligned}\frac{dx_ц}{dt}=V_ц\cos{\Theta_ц}\\  
-\frac{dy_ц}{dt}=V_ц\sin{\Theta_ц}\end{aligned}\right..$$  </p>  
+\frac{dy_ц}{dt}=V_ц\sin{\Theta_ц}\end{aligned}\right.$$  </p>  
 <p> Модель измерителя заключается в накладывание шумов на величины $$r$$ и $$\varepsilon_ц$$. Шум моделируется с помощью алгоритма Бокса-Мюллера. Наложив шумы мы получаем измеренны значения $$r_{изм}$$ и $$\varepsilon_{ц~изм}$$:</p>  
 <p style="text-algin:center">$$r_{изм}=r+\sigma_r\xi_r~,$$  
 $$\varepsilon_{ц~изм}=\varepsilon_ц+\sigma_\varepsilon\xi_\varepsilon~,$$</p>  
